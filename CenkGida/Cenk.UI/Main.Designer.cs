@@ -1,6 +1,6 @@
 ﻿namespace Cenk.UI
 {
-    partial class MainForm
+    partial class Main
     {
         /// <summary>
         /// Required designer variable.
@@ -28,12 +28,31 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.listViewBase1 = new Cenk.UI.Views.Tools.ListViewBase();
+            this.SuspendLayout();
+            // 
+            // listViewBase1
+            // 
+            this.listViewBase1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.listViewBase1.Location = new System.Drawing.Point(0, 0);
+            this.listViewBase1.Name = "listViewBase1";
+            this.listViewBase1.Size = new System.Drawing.Size(882, 610);
+            this.listViewBase1.TabIndex = 0;
+            // 
+            // Main
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Text = "Form1";
+            this.ClientSize = new System.Drawing.Size(882, 610);
+            this.Controls.Add(this.listViewBase1);
+            this.Name = "Main";
+            this.Text = "Main";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
+
+        private Views.Tools.ListViewBase listViewBase1;
     }
 }
-

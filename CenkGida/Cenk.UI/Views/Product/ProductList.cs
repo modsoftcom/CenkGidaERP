@@ -1,18 +1,19 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
+using System.Data;
 using System.Text;
+using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using DevExpress.XtraEditors;
 
-namespace Cenk.UI
+namespace Cenk.UI.Views.Product
 {
-    public partial class MainForm : Form
+    public partial class ProductList : DevExpress.XtraEditors.XtraUserControl
     {
-        public MainForm()
+        public ProductList()
         {
             InitializeComponent();
         }

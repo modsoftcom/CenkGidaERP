@@ -35,569 +35,67 @@
   <ItemGroup>
     <Reference Include="DevExpress.BonusSkins.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Git\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\DevExpress.BonusSkins.v16.1.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.Charts.Designer.v16.1.resources, Version=16.1.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\tr\DevExpress.Charts.Designer.v16.1.resources.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.Charts.v16.1.Core, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Git\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\DevExpress.Charts.v16.1.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.CodeParser.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Git\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\DevExpress.CodeParser.v16.1.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.Dashboard.v16.1.Core, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Git\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\DevExpress.Dashboard.v16.1.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.Dashboard.v16.1.Core.resources, Version=16.1.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\tr\DevExpress.Dashboard.v16.1.Core.resources.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.Dashboard.v16.1.Web.resources, Version=16.1.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\tr\DevExpress.Dashboard.v16.1.Web.resources.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.Dashboard.v16.1.Win, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Git\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\DevExpress.Dashboard.v16.1.Win.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.Dashboard.v16.1.Win.resources, Version=16.1.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\tr\DevExpress.Dashboard.v16.1.Win.resources.dll</HintPath>
+      <HintPath>..\Cenk.Dev\bin\Debug\DevExpress.BonusSkins.v16.1.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.Data.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Git\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\DevExpress.Data.v16.1.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.Data.v16.1.resources, Version=16.1.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\tr\DevExpress.Data.v16.1.resources.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.DataAccess.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Git\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\DevExpress.DataAccess.v16.1.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.DataAccess.v16.1.resources, Version=16.1.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\tr\DevExpress.DataAccess.v16.1.resources.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.DataAccess.v16.1.UI, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Git\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\DevExpress.DataAccess.v16.1.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.DataAccess.v16.1.UI.resources, Version=16.1.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\tr\DevExpress.DataAccess.v16.1.UI.resources.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.Diagram.v16.1.Core, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Git\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\DevExpress.Diagram.v16.1.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.Diagram.v16.1.Core.resources">
-      <HintPath>..\..\..\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\tr\DevExpress.Diagram.v16.1.Core.resources.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.ExpressApp.HtmlPropertyEditor.Win.v16.1.resources, Version=16.1.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\tr\DevExpress.ExpressApp.HtmlPropertyEditor.Win.v16.1.resources.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.ExpressApp.PivotChart.v16.1.resources, Version=16.1.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\tr\DevExpress.ExpressApp.PivotChart.v16.1.resources.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.ExpressApp.Reports.v16.1.resources, Version=16.1.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\tr\DevExpress.ExpressApp.Reports.v16.1.resources.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.ExpressApp.Scheduler.v16.1.resources, Version=16.1.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\tr\DevExpress.ExpressApp.Scheduler.v16.1.resources.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.ExpressApp.Scheduler.Web.v16.1.resources, Version=16.1.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\tr\DevExpress.ExpressApp.Scheduler.Web.v16.1.resources.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.ExpressApp.Security.v16.1.resources, Version=16.1.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\tr\DevExpress.ExpressApp.Security.v16.1.resources.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.ExpressApp.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Git\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\DevExpress.ExpressApp.v16.1.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.ExpressApp.v16.1.resources, Version=16.1.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\tr\DevExpress.ExpressApp.v16.1.resources.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.ExpressApp.Validation.v16.1.resources, Version=16.1.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\tr\DevExpress.ExpressApp.Validation.v16.1.resources.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.ExpressApp.Web.v16.1.resources, Version=16.1.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\tr\DevExpress.ExpressApp.Web.v16.1.resources.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.ExpressApp.Win.v16.1.resources, Version=16.1.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\tr\DevExpress.ExpressApp.Win.v16.1.resources.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.Images.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Git\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\DevExpress.Images.v16.1.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.Map.v16.1.Core.resources, Version=16.1.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\tr\DevExpress.Map.v16.1.Core.resources.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.Mvvm.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Git\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\DevExpress.Mvvm.v16.1.dll</HintPath>
+      <HintPath>..\Cenk.Dev\bin\Debug\DevExpress.Data.v16.1.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.Office.v16.1.Core, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Git\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\DevExpress.Office.v16.1.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.Office.v16.1.Core.resources, Version=16.1.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\tr\DevExpress.Office.v16.1.Core.resources.dll</HintPath>
+      <HintPath>..\Cenk.Dev\bin\Debug\DevExpress.Office.v16.1.Core.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.Pdf.v16.1.Core, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Git\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\DevExpress.Pdf.v16.1.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.Pdf.v16.1.Core.resources, Version=16.1.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\tr\DevExpress.Pdf.v16.1.Core.resources.dll</HintPath>
+      <HintPath>..\Cenk.Dev\bin\Debug\DevExpress.Pdf.v16.1.Core.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.Pdf.v16.1.Drawing, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Git\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\DevExpress.Pdf.v16.1.Drawing.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.Persistent.Base.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Git\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\DevExpress.Persistent.Base.v16.1.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.PivotGrid.v16.1.Core, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Git\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\DevExpress.PivotGrid.v16.1.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.PivotGrid.v16.1.Core.resources, Version=16.1.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\tr\DevExpress.PivotGrid.v16.1.Core.resources.dll</HintPath>
+      <HintPath>..\Cenk.Dev\bin\Debug\DevExpress.Pdf.v16.1.Drawing.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.Printing.v16.1.Core, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Git\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\DevExpress.Printing.v16.1.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.Printing.v16.1.Core.resources, Version=16.1.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\tr\DevExpress.Printing.v16.1.Core.resources.dll</HintPath>
+      <HintPath>..\Cenk.Dev\bin\Debug\DevExpress.Printing.v16.1.Core.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.RichEdit.v16.1.Core, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Git\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\DevExpress.RichEdit.v16.1.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.RichEdit.v16.1.Core.resources, Version=16.1.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\tr\DevExpress.RichEdit.v16.1.Core.resources.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.Snap.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Git\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\DevExpress.Snap.v16.1.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.Snap.v16.1.Core, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Git\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\DevExpress.Snap.v16.1.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.Snap.v16.1.Core.resources, Version=16.1.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\tr\DevExpress.Snap.v16.1.Core.resources.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.Snap.v16.1.Extensions, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Git\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\DevExpress.Snap.v16.1.Extensions.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.Snap.v16.1.Extensions.resources, Version=16.1.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\tr\DevExpress.Snap.v16.1.Extensions.resources.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.Snap.v16.1.resources, Version=16.1.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\tr\DevExpress.Snap.v16.1.resources.dll</HintPath>
+      <HintPath>..\Cenk.Dev\bin\Debug\DevExpress.RichEdit.v16.1.Core.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.Sparkline.v16.1.Core, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Git\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\DevExpress.Sparkline.v16.1.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.Sparkline.v16.1.Core.resources, Version=16.1.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\tr\DevExpress.Sparkline.v16.1.Core.resources.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.SpellChecker.v16.1.Core, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Git\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\DevExpress.SpellChecker.v16.1.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.Spreadsheet.v16.1.Core, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Git\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\DevExpress.Spreadsheet.v16.1.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.Spreadsheet.v16.1.Core.resources, Version=16.1.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\tr\DevExpress.Spreadsheet.v16.1.Core.resources.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.TreeMap.v16.1.Core, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Git\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\DevExpress.TreeMap.v16.1.Core.dll</HintPath>
+      <HintPath>..\Cenk.Dev\bin\Debug\DevExpress.Sparkline.v16.1.Core.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.Utils.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Git\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\DevExpress.Utils.v16.1.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.Utils.v16.1.resources, Version=16.1.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\tr\DevExpress.Utils.v16.1.resources.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.Utils.v16.1.UI, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Git\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\DevExpress.Utils.v16.1.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.Utils.v16.1.UI.resources, Version=16.1.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\tr\DevExpress.Utils.v16.1.UI.resources.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.Web.ASPxHtmlEditor.v16.1.resources, Version=16.1.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\tr\DevExpress.Web.ASPxHtmlEditor.v16.1.resources.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.Web.ASPxRichEdit.v16.1.resources, Version=16.1.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\tr\DevExpress.Web.ASPxRichEdit.v16.1.resources.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.Web.ASPxScheduler.v16.1.resources, Version=16.1.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\tr\DevExpress.Web.ASPxScheduler.v16.1.resources.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.Web.ASPxSpellChecker.v16.1.resources, Version=16.1.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\tr\DevExpress.Web.ASPxSpellChecker.v16.1.resources.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.Web.ASPxSpreadsheet.v16.1.resources, Version=16.1.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\tr\DevExpress.Web.ASPxSpreadsheet.v16.1.resources.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.Web.ASPxTreeList.v16.1.resources, Version=16.1.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\tr\DevExpress.Web.ASPxTreeList.v16.1.resources.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.Web.v16.1.resources, Version=16.1.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\tr\DevExpress.Web.v16.1.resources.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.Xpf.Charts.v16.1.resources, Version=16.1.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\tr\DevExpress.Xpf.Charts.v16.1.resources.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.Xpf.Controls.v16.1.resources, Version=16.1.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\tr\DevExpress.Xpf.Controls.v16.1.resources.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.Xpf.Core.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Git\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\DevExpress.Xpf.Core.v16.1.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.Xpf.Core.v16.1.resources, Version=16.1.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\tr\DevExpress.Xpf.Core.v16.1.resources.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.Xpf.Docking.v16.1.resources, Version=16.1.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\tr\DevExpress.Xpf.Docking.v16.1.resources.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.Xpf.DocumentViewer.v16.1.Core.resources, Version=16.1.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\tr\DevExpress.Xpf.DocumentViewer.v16.1.Core.resources.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.Xpf.Gauges.v16.1.resources, Version=16.1.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\tr\DevExpress.Xpf.Gauges.v16.1.resources.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.Xpf.Grid.v16.1.Core.resources, Version=16.1.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\tr\DevExpress.Xpf.Grid.v16.1.Core.resources.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.Xpf.LayoutControl.v16.1.resources, Version=16.1.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\tr\DevExpress.Xpf.LayoutControl.v16.1.resources.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.Xpf.NavBar.v16.1.resources, Version=16.1.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\tr\DevExpress.Xpf.NavBar.v16.1.resources.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.Xpf.PdfViewer.v16.1.resources, Version=16.1.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\tr\DevExpress.Xpf.PdfViewer.v16.1.resources.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.Xpf.Printing.v16.1.resources, Version=16.1.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\tr\DevExpress.Xpf.Printing.v16.1.resources.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.Xpf.PropertyGrid.v16.1.resources, Version=16.1.4.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\tr\DevExpress.Xpf.PropertyGrid.v16.1.resources.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.Xpf.ReportDesigner.v16.1.resources">
-      <HintPath>..\..\..\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\tr\DevExpress.Xpf.ReportDesigner.v16.1.resources.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.Xpf.Ribbon.v16.1.resources, Version=16.1.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\tr\DevExpress.Xpf.Ribbon.v16.1.resources.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.Xpf.RichEdit.v16.1.resources, Version=16.1.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\tr\DevExpress.Xpf.RichEdit.v16.1.resources.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.Xpf.Scheduler.v16.1.resources, Version=16.1.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\tr\DevExpress.Xpf.Scheduler.v16.1.resources.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.Xpf.SpellChecker.v16.1.resources, Version=16.1.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\tr\DevExpress.Xpf.SpellChecker.v16.1.resources.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.Xpf.Spreadsheet.v16.1.resources, Version=16.1.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\tr\DevExpress.Xpf.Spreadsheet.v16.1.resources.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.Xpo.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Git\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\DevExpress.Xpo.v16.1.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.Xpo.v16.1.resources, Version=16.1.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\tr\DevExpress.Xpo.v16.1.resources.dll</HintPath>
+      <HintPath>..\Cenk.Dev\bin\Debug\DevExpress.Utils.v16.1.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.XtraBars.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Git\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\DevExpress.XtraBars.v16.1.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.XtraBars.v16.1.resources, Version=16.1.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\tr\DevExpress.XtraBars.v16.1.resources.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.XtraCharts.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Git\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\DevExpress.XtraCharts.v16.1.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.XtraCharts.v16.1.Extensions, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Git\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\DevExpress.XtraCharts.v16.1.Extensions.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.XtraCharts.v16.1.resources, Version=16.1.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\tr\DevExpress.XtraCharts.v16.1.resources.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.XtraCharts.v16.1.UI, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Git\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\DevExpress.XtraCharts.v16.1.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.XtraCharts.v16.1.Wizard, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Git\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\DevExpress.XtraCharts.v16.1.Wizard.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.XtraCharts.v16.1.Wizard.resources, Version=16.1.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\tr\DevExpress.XtraCharts.v16.1.Wizard.resources.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.XtraDiagram.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Git\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\DevExpress.XtraDiagram.v16.1.dll</HintPath>
+      <HintPath>..\Cenk.Dev\bin\Debug\DevExpress.XtraBars.v16.1.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.XtraEditors.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Git\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\DevExpress.XtraEditors.v16.1.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.XtraEditors.v16.1.resources, Version=16.1.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\tr\DevExpress.XtraEditors.v16.1.resources.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.XtraGauges.v16.1.Core, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Git\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\DevExpress.XtraGauges.v16.1.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.XtraGauges.v16.1.Core.resources, Version=16.1.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\tr\DevExpress.XtraGauges.v16.1.Core.resources.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.XtraGauges.v16.1.Presets, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Git\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\DevExpress.XtraGauges.v16.1.Presets.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.XtraGauges.v16.1.Presets.resources, Version=16.1.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\tr\DevExpress.XtraGauges.v16.1.Presets.resources.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.XtraGauges.v16.1.Win, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Git\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\DevExpress.XtraGauges.v16.1.Win.dll</HintPath>
+      <HintPath>..\Cenk.Dev\bin\Debug\DevExpress.XtraEditors.v16.1.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.XtraGrid.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Git\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\DevExpress.XtraGrid.v16.1.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.XtraGrid.v16.1.resources, Version=16.1.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\tr\DevExpress.XtraGrid.v16.1.resources.dll</HintPath>
+      <HintPath>..\Cenk.Dev\bin\Debug\DevExpress.XtraGrid.v16.1.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.XtraLayout.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Git\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\DevExpress.XtraLayout.v16.1.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.XtraLayout.v16.1.resources, Version=16.1.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\tr\DevExpress.XtraLayout.v16.1.resources.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.XtraMap.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Git\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\DevExpress.XtraMap.v16.1.dll</HintPath>
+      <HintPath>..\Cenk.Dev\bin\Debug\DevExpress.XtraLayout.v16.1.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.XtraNavBar.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Git\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\DevExpress.XtraNavBar.v16.1.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.XtraNavBar.v16.1.resources, Version=16.1.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\tr\DevExpress.XtraNavBar.v16.1.resources.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.XtraPdfViewer.v16.1.resources, Version=16.1.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\tr\DevExpress.XtraPdfViewer.v16.1.resources.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.XtraPivotGrid.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Git\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\DevExpress.XtraPivotGrid.v16.1.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.XtraPivotGrid.v16.1.resources, Version=16.1.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\tr\DevExpress.XtraPivotGrid.v16.1.resources.dll</HintPath>
+      <HintPath>..\Cenk.Dev\bin\Debug\DevExpress.XtraNavBar.v16.1.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.XtraPrinting.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Git\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\DevExpress.XtraPrinting.v16.1.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.XtraPrinting.v16.1.resources, Version=16.1.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\tr\DevExpress.XtraPrinting.v16.1.resources.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.XtraReports.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Git\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\DevExpress.XtraReports.v16.1.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.XtraReports.v16.1.Extensions, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Git\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\DevExpress.XtraReports.v16.1.Extensions.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.XtraReports.v16.1.Extensions.resources, Version=16.1.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\tr\DevExpress.XtraReports.v16.1.Extensions.resources.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.XtraReports.v16.1.resources, Version=16.1.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\tr\DevExpress.XtraReports.v16.1.resources.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.XtraReports.v16.1.Web.resources, Version=16.1.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\tr\DevExpress.XtraReports.v16.1.Web.resources.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.XtraRichEdit.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Git\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\DevExpress.XtraRichEdit.v16.1.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.XtraRichEdit.v16.1.Extensions, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Git\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\DevExpress.XtraRichEdit.v16.1.Extensions.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.XtraRichEdit.v16.1.Extensions.resources, Version=16.1.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\tr\DevExpress.XtraRichEdit.v16.1.Extensions.resources.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.XtraRichEdit.v16.1.resources, Version=16.1.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\tr\DevExpress.XtraRichEdit.v16.1.resources.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.XtraScheduler.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Git\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\DevExpress.XtraScheduler.v16.1.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.XtraScheduler.v16.1.Core, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Git\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\DevExpress.XtraScheduler.v16.1.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.XtraScheduler.v16.1.Core.resources, Version=16.1.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\tr\DevExpress.XtraScheduler.v16.1.Core.resources.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.XtraScheduler.v16.1.Extensions.resources, Version=16.1.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\tr\DevExpress.XtraScheduler.v16.1.Extensions.resources.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.XtraScheduler.v16.1.Reporting, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Git\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\DevExpress.XtraScheduler.v16.1.Reporting.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.XtraScheduler.v16.1.Reporting.resources, Version=16.1.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\tr\DevExpress.XtraScheduler.v16.1.Reporting.resources.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.XtraScheduler.v16.1.resources, Version=16.1.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\tr\DevExpress.XtraScheduler.v16.1.resources.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.XtraSpellChecker.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Git\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\DevExpress.XtraSpellChecker.v16.1.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.XtraSpellChecker.v16.1.resources, Version=16.1.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\tr\DevExpress.XtraSpellChecker.v16.1.resources.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.XtraSpreadsheet.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Git\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\DevExpress.XtraSpreadsheet.v16.1.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.XtraSpreadsheet.v16.1.resources, Version=16.1.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\tr\DevExpress.XtraSpreadsheet.v16.1.resources.dll</HintPath>
+      <HintPath>..\Cenk.Dev\bin\Debug\DevExpress.XtraPrinting.v16.1.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.XtraTreeList.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Git\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\DevExpress.XtraTreeList.v16.1.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.XtraTreeList.v16.1.resources, Version=16.1.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\tr\DevExpress.XtraTreeList.v16.1.resources.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.XtraTreeMap.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Git\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\DevExpress.XtraTreeMap.v16.1.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.XtraVerticalGrid.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Git\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\DevExpress.XtraVerticalGrid.v16.1.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.XtraVerticalGrid.v16.1.resources, Version=16.1.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\tr\DevExpress.XtraVerticalGrid.v16.1.resources.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.XtraWizard.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Git\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\DevExpress.XtraWizard.v16.1.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.XtraWizard.v16.1.resources, Version=16.1.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\KutsanQC\Kutsan\Kutsan.UI\bin\x86\Debug\tr\DevExpress.XtraWizard.v16.1.resources.dll</HintPath>
+      <HintPath>..\Cenk.Dev\bin\Debug\DevExpress.XtraTreeList.v16.1.dll</HintPath>
     </Reference>
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
@@ -625,11 +123,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MainForm.cs">
+    <Compile Include="Main.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MainForm.Designer.cs">
-      <DependentUpon>MainForm.cs</DependentUpon>
+    <Compile Include="Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
     </Compile>
     <Compile Include="Model\Customer.cs" />
     <Compile Include="Model\Order.cs" />
@@ -638,6 +136,40 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Utils\Service.cs" />
+    <Compile Include="Views\Customer\CustomerList.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Customer\CustomerList.Designer.cs">
+      <DependentUpon>CustomerList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Order\OrderList.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Order\OrderList.Designer.cs">
+      <DependentUpon>OrderList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Product\ProductList.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Product\ProductList.Designer.cs">
+      <DependentUpon>ProductList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Tools\ListViewBase.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Tools\ListViewBase.Designer.cs">
+      <DependentUpon>ListViewBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Waybill\WaybillList.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Waybill\WaybillList.Designer.cs">
+      <DependentUpon>WaybillList.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -647,7 +179,26 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Views\Customer\CustomerList.resx">
+      <DependentUpon>CustomerList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Order\OrderList.resx">
+      <DependentUpon>OrderList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Product\ProductList.resx">
+      <DependentUpon>ProductList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Tools\ListViewBase.resx">
+      <DependentUpon>ListViewBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Waybill\WaybillList.resx">
+      <DependentUpon>WaybillList.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="packages.config" />
+    <None Include="Properties\DataSources\Cenk.UI.Model.Customer.datasource" />
+    <None Include="Properties\DataSources\Cenk.UI.Model.Order.datasource" />
+    <None Include="Properties\DataSources\Cenk.UI.Model.Product.datasource" />
+    <None Include="Properties\DataSources\Cenk.UI.Model.Waybill.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

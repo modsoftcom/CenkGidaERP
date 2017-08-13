@@ -42,18 +42,18 @@ namespace Cenk.UI
 
                 DevExpress.XtraEditors.WindowsFormsSettings.DefaultFont = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular);
                 CheckFiles();
-                Application.Run(new MainForm());
+                Application.Run(new Main());
             }
-            catch (Exception)
+            catch (Exception ex)
             {
-
+                Console.WriteLine(ex);
             }
         }
         private static void CheckFiles()
         {
             string[] Dirs = new string[]
             {
-               Properties.Settings.Default.DBDir
+              Application.StartupPath
             };
             foreach (string dir in Dirs)
             {
@@ -64,7 +64,10 @@ namespace Cenk.UI
             }
             string[] Files = new string[]
             {
-                Dirs[0] + "\\Customers.json"
+                Dirs[0] + "\\Customers.json",
+                Dirs[0] + "\\Products.json",
+                Dirs[0] + "\\Waybills.json",
+                Dirs[0] + "\\Orders.json"
             };
             foreach (string fname in Files)
             {

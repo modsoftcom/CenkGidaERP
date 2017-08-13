@@ -31,8 +31,11 @@ namespace Cenk.UI.Model
         [Display(Name = "Gramaj")]
         public int Gsm { get; set; }
 
-        [Display(Name = "Birim")]
+        [Display(Name = "Ölçü Birimi")]
         public string Unit { get; set; }
+
+        [Display(Name = "Stok Türü")]
+        public string StockType { get; set; }
 
         [Display(Name = "Eklenme Tarihi")]
         public DateTime DateCreated { get; set; }
@@ -40,7 +43,7 @@ namespace Cenk.UI.Model
         public override string ToString()
         {
             string no = No < 10 ? "0" + No : No.ToString();
-            string deposit = Deposit ? "(Depozitolu)" : "(İadesiz)";
+            string deposit = Deposit ? "Depozitolu" : "İadesiz";
             string violEki = "";
             int option = ViolCapacity % 10 == 0 ? ViolCapacity : ViolCapacity % 10;
             switch (option)
@@ -76,7 +79,7 @@ namespace Cenk.UI.Model
                     break;
             }
 
-            return string.Format("{0} {1} {2} {3} {4}{5} {6} {7}", no, Brand, Title, deposit, ViolCapacity, violEki, Gsm, Unit);
+            return string.Format("{0} {1} {2} ({3}{4} Viyol, {5}) {6} {7}", no, Brand, Title, ViolCapacity, violEki, deposit, Gsm, Unit);
         }
 
     }

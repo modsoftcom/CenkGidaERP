@@ -39,5 +39,10 @@ namespace Cenk.UI.Model
 
         [Display(Name = "Eklenme Tarihi")]
         public DateTime DateCreated { get; set; }
+
+        public override string ToString()
+        {
+            return string.Format("{0} {1} - {2}", Name, Lastname, Phone);
+        }
     }
 }
