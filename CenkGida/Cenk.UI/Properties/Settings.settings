@@ -5,5 +5,11 @@
     <Setting Name="DBDir" Type="System.String" Scope="User">
       <Value Profile="(Default)" />
     </Setting>
+    <Setting Name="ExportInitialDir" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\</Value>
+    </Setting>
+    <Setting Name="Theme" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Office 2016 Colorful</Value>
+    </Setting>
   </Settings>
 </SettingsFile>

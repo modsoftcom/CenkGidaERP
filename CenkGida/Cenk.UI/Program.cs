@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Cenk.UI.Views;
+using Cenk.UI.Views.Customer;
+using System;
 using System.Collections.Generic;
 using System.Globalization;
 using System.IO;
@@ -19,6 +21,9 @@ namespace Cenk.UI
         {
             try
             {
+                Properties.Settings.Default.DBDir = Application.StartupPath;
+                Properties.Settings.Default.Save();
+
                 // Create a new object, representing the German culture.  
                 CultureInfo culture = CultureInfo.CreateSpecificCulture("tr");
 
@@ -42,7 +47,7 @@ namespace Cenk.UI
 
                 DevExpress.XtraEditors.WindowsFormsSettings.DefaultFont = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular);
                 CheckFiles();
-                Application.Run(new Main());
+                Application.Run(new MasterForm());
             }
             catch (Exception ex)
             {
@@ -67,7 +72,8 @@ namespace Cenk.UI
                 Dirs[0] + "\\Customers.json",
                 Dirs[0] + "\\Products.json",
                 Dirs[0] + "\\Waybills.json",
-                Dirs[0] + "\\Orders.json"
+                Dirs[0] + "\\Orders.json",
+                Dirs[0] + "\\Logs.json"
             };
             foreach (string fname in Files)
             {

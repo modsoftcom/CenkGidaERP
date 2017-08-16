@@ -51,6 +51,11 @@ namespace Cenk.UI.Utils
             list.Remove(list.First(s => Convert.ToInt64(s.GetType().GetProperties().FirstOrDefault(p => p.Name == "Id").GetValue(s)) == Id));
             Save(list);
         }
+        public static void Delete(T Entity)
+        {
+            var list = SelectAll();
+            Delete(Convert.ToInt64(Entity.GetType().GetProperties().FirstOrDefault(p => p.Name == "Id").GetValue(Entity)));
+        }
 
         public static T Select(long Id)
         {
@@ -88,5 +93,6 @@ namespace Cenk.UI.Utils
             File.WriteAllText(Properties.Settings.Default.DBDir + "\\" + typeof(T).Name + "s.json", json);
 
         }
+        
     }
 }

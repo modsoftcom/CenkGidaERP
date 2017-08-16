@@ -123,24 +123,33 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Main.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Main.Designer.cs">
-      <DependentUpon>Main.cs</DependentUpon>
-    </Compile>
     <Compile Include="Model\Customer.cs" />
+    <Compile Include="Model\IEvents.cs" />
+    <Compile Include="Model\Log.cs" />
     <Compile Include="Model\Order.cs" />
     <Compile Include="Model\Product.cs" />
     <Compile Include="Model\Waybill.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utils\Logger.cs" />
     <Compile Include="Utils\Service.cs" />
-    <Compile Include="Views\Customer\CustomerList.cs">
+    <Compile Include="Views\BaseForm.cs">
       <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\BaseForm.Designer.cs">
+      <DependentUpon>BaseForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Customer\CustomerList.cs">
+      <SubType>Form</SubType>
     </Compile>
     <Compile Include="Views\Customer\CustomerList.Designer.cs">
       <DependentUpon>CustomerList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\MasterForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\MasterForm.Designer.cs">
+      <DependentUpon>MasterForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Views\Order\OrderList.cs">
       <SubType>UserControl</SubType>
@@ -154,21 +163,12 @@
     <Compile Include="Views\Product\ProductList.Designer.cs">
       <DependentUpon>ProductList.cs</DependentUpon>
     </Compile>
-    <Compile Include="Views\Tools\ListViewBase.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="Views\Tools\ListViewBase.Designer.cs">
-      <DependentUpon>ListViewBase.cs</DependentUpon>
-    </Compile>
     <Compile Include="Views\Waybill\WaybillList.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="Views\Waybill\WaybillList.Designer.cs">
       <DependentUpon>WaybillList.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Main.resx">
-      <DependentUpon>Main.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Properties\licenses.licx" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -179,17 +179,21 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Views\BaseForm.resx">
+      <DependentUpon>BaseForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
     <EmbeddedResource Include="Views\Customer\CustomerList.resx">
       <DependentUpon>CustomerList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\MasterForm.resx">
+      <DependentUpon>MasterForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\Order\OrderList.resx">
       <DependentUpon>OrderList.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\Product\ProductList.resx">
       <DependentUpon>ProductList.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Views\Tools\ListViewBase.resx">
-      <DependentUpon>ListViewBase.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\Waybill\WaybillList.resx">
       <DependentUpon>WaybillList.cs</DependentUpon>
