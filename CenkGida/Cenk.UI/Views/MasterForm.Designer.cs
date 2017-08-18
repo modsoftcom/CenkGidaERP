@@ -28,9 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            DevExpress.XtraSplashScreen.SplashScreenManager splashScreenManager1 = new DevExpress.XtraSplashScreen.SplashScreenManager(this, null, true, true);
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MasterForm));
-            this.defaultLookAndFeel1 = new DevExpress.LookAndFeel.DefaultLookAndFeel(this.components);
+            this.theme = new DevExpress.LookAndFeel.DefaultLookAndFeel();
             this.barDockControlTop = new DevExpress.XtraBars.BarDockControl();
             this.barDockControlBottom = new DevExpress.XtraBars.BarDockControl();
             this.barDockControlLeft = new DevExpress.XtraBars.BarDockControl();
@@ -54,6 +54,7 @@
             this.btnEraseData = new DevExpress.XtraBars.BarSubItem();
             this.btnEraseCustomers = new DevExpress.XtraBars.BarButtonItem();
             this.btnEraseProducts = new DevExpress.XtraBars.BarButtonItem();
+            this.skinBarSubItem1 = new DevExpress.XtraBars.SkinBarSubItem();
             this.barSubItem4 = new DevExpress.XtraBars.BarSubItem();
             this.btnShowLogs = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem2 = new DevExpress.XtraBars.BarButtonItem();
@@ -81,9 +82,13 @@
             ((System.ComponentModel.ISupportInitialize)(this.tabFormDefaultManager2)).BeginInit();
             this.SuspendLayout();
             // 
-            // defaultLookAndFeel1
+            // splashScreenManager1
             // 
-            this.defaultLookAndFeel1.LookAndFeel.SkinName = "Office 2016 Colorful";
+            splashScreenManager1.ClosingDelay = 500;
+            // 
+            // theme
+            // 
+            this.theme.LookAndFeel.SkinName = "Office 2016 Colorful";
             // 
             // barDockControlTop
             // 
@@ -188,7 +193,8 @@
             this.btnEraseProducts,
             this.barEditItem1,
             this.barSubItem4,
-            this.btnShowLogs});
+            this.btnShowLogs,
+            this.skinBarSubItem1});
             this.tabFormControl1.LinkProvider.TabRightItemLinks.Add(this.barSubItem2);
             this.tabFormControl1.Location = new System.Drawing.Point(0, 0);
             this.tabFormControl1.Manager = this.tabFormDefaultManager2;
@@ -227,7 +233,8 @@
             this.barSubItem2.ImageUri.Uri = "AlignJustify";
             this.barSubItem2.LinksPersistInfo.AddRange(new DevExpress.XtraBars.LinkPersistInfo[] {
             new DevExpress.XtraBars.LinkPersistInfo(this.barSubItem3),
-            new DevExpress.XtraBars.LinkPersistInfo(this.barSubItem4)});
+            new DevExpress.XtraBars.LinkPersistInfo(this.skinBarSubItem1),
+            new DevExpress.XtraBars.LinkPersistInfo(this.barSubItem4, true)});
             this.barSubItem2.Name = "barSubItem2";
             this.barSubItem2.PaintStyle = DevExpress.XtraBars.BarItemPaintStyle.CaptionGlyph;
             // 
@@ -295,6 +302,12 @@
             this.btnEraseProducts.LargeGlyph = ((System.Drawing.Image)(resources.GetObject("btnEraseProducts.LargeGlyph")));
             this.btnEraseProducts.Name = "btnEraseProducts";
             // 
+            // skinBarSubItem1
+            // 
+            this.skinBarSubItem1.Caption = "Görünüm Ayarları";
+            this.skinBarSubItem1.Id = 15;
+            this.skinBarSubItem1.Name = "skinBarSubItem1";
+            // 
             // barSubItem4
             // 
             this.barSubItem4.Caption = "Yönetici İşlemleri";
@@ -354,8 +367,9 @@
             this.btnEraseProducts,
             this.barEditItem1,
             this.barSubItem4,
-            this.btnShowLogs});
-            this.tabFormDefaultManager2.MaxItemId = 15;
+            this.btnShowLogs,
+            this.skinBarSubItem1});
+            this.tabFormDefaultManager2.MaxItemId = 16;
             this.tabFormDefaultManager2.RepositoryItems.AddRange(new DevExpress.XtraEditors.Repository.RepositoryItem[] {
             this.repositoryItemTextEdit1});
             // 
@@ -488,7 +502,7 @@
 
         #endregion
 
-        private DevExpress.LookAndFeel.DefaultLookAndFeel defaultLookAndFeel1;
+        private DevExpress.LookAndFeel.DefaultLookAndFeel theme;
         private DevExpress.XtraBars.BarDockControl barDockControlTop;
         private DevExpress.XtraBars.BarDockControl barDockControlBottom;
         private DevExpress.XtraBars.BarDockControl barDockControlLeft;
@@ -533,5 +547,6 @@
         private DevExpress.XtraEditors.Repository.RepositoryItemTextEdit repositoryItemTextEdit1;
         private System.ComponentModel.BackgroundWorker bg;
         private DevExpress.XtraSplashScreen.SplashScreenManager loader;
+        private DevExpress.XtraBars.SkinBarSubItem skinBarSubItem1;
     }
 }

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
@@ -7,8 +8,29 @@ using System.Threading.Tasks;
 
 namespace Cenk.UI.Model
 {
+    [DisplayName("İrsaliyalar")]
     public class Waybill
     {
+        public Waybill()
+        {
+
+        }
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="number">İrsale Numarası</param>
+        /// <param name="customer">Müşteri</param>
+        /// <param name="product">Ürün</param>
+        /// <param name="quantity">Miktar</param>
+        /// <param name="isBilled">Faturalandırılmış mı?</param>
+        public Waybill(string number, Customer customer, Product product, int quantity, bool isBilled)
+        {
+            this.WaybillNumber = number;
+            this.Customer = customer;
+            this.Product = product;
+            this.Quantity = quantity;
+            this.IsBilled = isBilled;
+        }
         [Key, Display(AutoGenerateField = false)]
         public long Id { get; set; }
 

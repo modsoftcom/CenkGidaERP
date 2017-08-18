@@ -14,7 +14,7 @@ namespace Cenk.UI.Utils
         public static void Add(Exception e)
         {
             Service<Log>.AddOrUpdate(new Log(e));
-            XtraMessageBox.Show("Lütfen, yazılımcı firma ile irtibata geçiniz.\n" +
+            MessageBox.Show("Lütfen, yazılımcı firma ile irtibata geçiniz.\n" +
                 "\n" + e.Message +
                 "\n" + e.StackTrace.Split(')').First().TrimStart() + ")" +
                 "\n" + e.StackTrace.Split(')').Last()

@@ -1,11 +1,8 @@
 ﻿using Cenk.UI.Views;
 using System;
-using System.Collections.Generic;
 using System.Globalization;
 using System.IO;
-using System.Linq;
 using System.Threading;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Cenk.UI
@@ -31,11 +28,7 @@ namespace Cenk.UI
 
                 // The following line provides localization for data formats.  
                 Thread.CurrentThread.CurrentCulture = culture;
-
-                // Set this culture as the default culture for all threads in this application.  
-                // Note: The following properties are supported in the .NET Framework 4.5+ 
-                CultureInfo.DefaultThreadCurrentCulture = culture;
-                CultureInfo.DefaultThreadCurrentUICulture = culture;
+                
 
                 System.Threading.Thread.CurrentThread.CurrentCulture = new System.Globalization.CultureInfo("tr-TR");
                 System.Threading.Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("tr-TR");

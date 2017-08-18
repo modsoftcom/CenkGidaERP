@@ -13,6 +13,15 @@ namespace Cenk.UI.Utils
 {
     public static class Utilities
     {
+        public static bool areNotNull(params string[] strs)
+        {
+            foreach (string str in strs)
+            {
+                if (string.IsNullOrEmpty(str) || string.IsNullOrWhiteSpace(str))
+                    return false;
+            }
+            return true;
+        }
         public static T GetAttribute<T>(this MemberInfo member, bool isRequired)
             where T : Attribute
         {

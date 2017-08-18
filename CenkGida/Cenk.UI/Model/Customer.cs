@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
@@ -8,6 +9,7 @@ using System.Threading.Tasks;
 
 namespace Cenk.UI.Model
 {
+    [DisplayName("Müşteriler")]
     public class Customer
     {
         [Key, Display(AutoGenerateField = false)]
@@ -27,25 +29,11 @@ namespace Cenk.UI.Model
 
         [Display(Name = "Eklenme Tarihi")]
         public DateTime DateCreated { get; set; }
-        
 
         public override string ToString()
         {
-            return string.Format("MÜŞTERİ BİLGİLERİ\nAdı\t:{0}\nAdres\t:{1}\nV.No\t:{2}({3}", Name, Address, TaxNo, TaxPlace);
+            return Name;
         }
     }
-
-    //public class WhatHeBuys
-    //{
-    //    [Display(Name = "Şişe")]
-    //    public bool Bottle { get; set; }
-    //    [Display(Name = "Özer Hisar")]
-    //    public bool OH { get; set; }
-    //    [Display(Name = "Çayır Hisar")]
-    //    public bool CH { get; set; }
-    //    [Display(Name = "Tombik")]
-    //    public bool Tombik { get; set; }
-    //    [Display(Name = "İadesiz")]
-    //    public bool NonDeposit { get; set; }
-    //}
+    
 }

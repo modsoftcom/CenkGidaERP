@@ -1,4 +1,6 @@
-﻿namespace Cenk.UI.Views
+﻿using Cenk.UI.Views;
+
+namespace Cenk.UI.Views
 {
     partial class BaseForm<T>
     {
@@ -28,7 +30,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             this.ribbonControl1 = new DevExpress.XtraBars.Ribbon.RibbonControl();
             this.btnNew = new DevExpress.XtraBars.BarButtonItem();
             this.btnDetails = new DevExpress.XtraBars.BarButtonItem();
@@ -40,12 +41,16 @@
             this.btnXLS = new DevExpress.XtraBars.BarButtonItem();
             this.btnPDF = new DevExpress.XtraBars.BarButtonItem();
             this.theme = new DevExpress.XtraBars.SkinRibbonGalleryBarItem();
+            this.barButtonItem1 = new DevExpress.XtraBars.BarButtonItem();
+            this.btnCreateOrder = new DevExpress.XtraBars.BarButtonItem();
+            this.btnCreateWaybill = new DevExpress.XtraBars.BarButtonItem();
             this.ribbonPage1 = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.ribbonPageGroup1 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonPageGroup2 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
-            this.ribbonPageGroup3 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
+            this.orderGroup = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
+            this.waybillGroup = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.itemGrid = new DevExpress.XtraGrid.GridControl();
-            this.bindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.bindingSource = new System.Windows.Forms.BindingSource();
             this.items = new DevExpress.XtraGrid.Views.Grid.GridView();
             ((System.ComponentModel.ISupportInitialize)(this.ribbonControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.itemGrid)).BeginInit();
@@ -67,9 +72,12 @@
             this.btnPrint,
             this.btnXLS,
             this.btnPDF,
-            this.theme});
+            this.theme,
+            this.barButtonItem1,
+            this.btnCreateOrder,
+            this.btnCreateWaybill});
             this.ribbonControl1.Location = new System.Drawing.Point(0, 0);
-            this.ribbonControl1.MaxItemId = 9;
+            this.ribbonControl1.MaxItemId = 12;
             this.ribbonControl1.Name = "ribbonControl1";
             this.ribbonControl1.Pages.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPage[] {
             this.ribbonPage1});
@@ -155,12 +163,36 @@
             this.theme.Name = "theme";
             this.theme.GalleryItemClick += new DevExpress.XtraBars.Ribbon.GalleryItemClickEventHandler(this.GalleryItemClick);
             // 
+            // barButtonItem1
+            // 
+            this.barButtonItem1.Id = 9;
+            this.barButtonItem1.Name = "barButtonItem1";
+            // 
+            // btnCreateOrder
+            // 
+            this.btnCreateOrder.Caption = "Fatura Oluştur";
+            this.btnCreateOrder.Id = 10;
+            this.btnCreateOrder.ImageUri.Uri = "DoubleNext";
+            this.btnCreateOrder.Name = "btnCreateOrder";
+            this.btnCreateOrder.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
+            this.btnCreateOrder.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnCreateOrder_ItemClick);
+            // 
+            // btnCreateWaybill
+            // 
+            this.btnCreateWaybill.Caption = "İrsaliye Oluştur";
+            this.btnCreateWaybill.Id = 11;
+            this.btnCreateWaybill.ImageUri.Uri = "TopAndBottom";
+            this.btnCreateWaybill.Name = "btnCreateWaybill";
+            this.btnCreateWaybill.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
+            this.btnCreateWaybill.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnCreateWaybill_ItemClick);
+            // 
             // ribbonPage1
             // 
             this.ribbonPage1.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] {
             this.ribbonPageGroup1,
             this.ribbonPageGroup2,
-            this.ribbonPageGroup3});
+            this.orderGroup,
+            this.waybillGroup});
             this.ribbonPage1.Name = "ribbonPage1";
             this.ribbonPage1.Text = "İşlemler";
             // 
@@ -187,13 +219,23 @@
             this.ribbonPageGroup2.ShowCaptionButton = false;
             this.ribbonPageGroup2.Text = "Çıktı İşlemleri";
             // 
-            // ribbonPageGroup3
+            // orderGroup
             // 
-            this.ribbonPageGroup3.AllowTextClipping = false;
-            this.ribbonPageGroup3.ItemLinks.Add(this.theme);
-            this.ribbonPageGroup3.Name = "ribbonPageGroup3";
-            this.ribbonPageGroup3.ShowCaptionButton = false;
-            this.ribbonPageGroup3.Text = "Görünüm Ayarları";
+            this.orderGroup.AllowTextClipping = false;
+            this.orderGroup.ItemLinks.Add(this.btnCreateOrder);
+            this.orderGroup.Name = "orderGroup";
+            this.orderGroup.ShowCaptionButton = false;
+            this.orderGroup.Text = "İrsaliye İşlemleri";
+            this.orderGroup.Visible = false;
+            // 
+            // waybillGroup
+            // 
+            this.waybillGroup.AllowTextClipping = false;
+            this.waybillGroup.ItemLinks.Add(this.btnCreateWaybill);
+            this.waybillGroup.Name = "waybillGroup";
+            this.waybillGroup.ShowCaptionButton = false;
+            this.waybillGroup.Text = "Müşteri İşlemleri";
+            this.waybillGroup.Visible = false;
             // 
             // itemGrid
             // 
@@ -209,7 +251,12 @@
             // 
             // items
             // 
+            this.items.Appearance.SelectedRow.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.items.Appearance.SelectedRow.Options.UseBackColor = true;
+            this.items.FocusRectStyle = DevExpress.XtraGrid.Views.Grid.DrawFocusRectStyle.RowFocus;
             this.items.GridControl = this.itemGrid;
+            this.items.GroupSummary.AddRange(new DevExpress.XtraGrid.GridSummaryItem[] {
+            new DevExpress.XtraGrid.GridGroupSummaryItem(DevExpress.Data.SummaryItemType.Sum, "", null, "")});
             this.items.Name = "items";
             this.items.OptionsBehavior.AllowAddRows = DevExpress.Utils.DefaultBoolean.True;
             this.items.OptionsBehavior.AllowDeleteRows = DevExpress.Utils.DefaultBoolean.True;
@@ -219,10 +266,13 @@
             this.items.OptionsFind.AlwaysVisible = true;
             this.items.OptionsFind.FindDelay = 100;
             this.items.OptionsFind.SearchInPreview = true;
+            this.items.OptionsSelection.InvertSelection = true;
+            this.items.OptionsSelection.MultiSelect = true;
             this.items.OptionsView.AllowHtmlDrawHeaders = true;
             this.items.OptionsView.EnableAppearanceEvenRow = true;
             this.items.OptionsView.NewItemRowPosition = DevExpress.XtraGrid.Views.Grid.NewItemRowPosition.Top;
             this.items.OptionsView.ShowFooter = true;
+            this.items.SelectionChanged += new DevExpress.Data.SelectionChangedEventHandler(this.items_SelectionChanged);
             this.items.RowUpdated += new DevExpress.XtraGrid.Views.Base.RowObjectEventHandler(this.RowUpdated);
             // 
             // BaseForm
@@ -249,7 +299,6 @@
         private DevExpress.XtraBars.Ribbon.RibbonPage ribbonPage1;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup1;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup2;
-        private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup3;
         private DevExpress.XtraBars.BarButtonItem btnNew;
         private DevExpress.XtraBars.BarButtonItem btnDetails;
         private DevExpress.XtraBars.BarButtonItem btnEdit;
@@ -263,5 +312,10 @@
         private System.Windows.Forms.BindingSource bindingSource;
         public DevExpress.XtraGrid.GridControl itemGrid;
         public DevExpress.XtraGrid.Views.Grid.GridView items;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem1;
+        private DevExpress.XtraBars.Ribbon.RibbonPageGroup orderGroup;
+        private DevExpress.XtraBars.BarButtonItem btnCreateOrder;
+        private DevExpress.XtraBars.Ribbon.RibbonPageGroup waybillGroup;
+        public DevExpress.XtraBars.BarButtonItem btnCreateWaybill;
     }
 }
