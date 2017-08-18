@@ -24,6 +24,9 @@ namespace Cenk.UI.Model
         [Display(Name = "Miktar")]
         public int Quantity { get; set; }
 
+        [Display(Name = "Faturalanmış mı?")]
+        public bool IsBilled { get; set; }
+
         [Display(Name =  "Tarih")]
         public DateTime DateCreated { get; set; }
     }

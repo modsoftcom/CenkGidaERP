@@ -10,20 +10,11 @@ namespace Cenk.UI.Model
 {
     public class Customer
     {
-
         [Key, Display(AutoGenerateField = false)]
         public long Id { get; set; }
+
         [Display(Name = "Adı")]
         public string Name { get; set; }
-
-        [Display(Name = "Soyadı")]
-        public string Lastname { get; set; }
-
-        [Display(Name = "Telefon")]
-        public string Phone { get; set; }
-
-        [Display(Name = "Fax")]
-        public string Fax { get; set; }
 
         [Display(Name = "Adres")]
         public string Address { get; set; }
@@ -34,15 +25,27 @@ namespace Cenk.UI.Model
         [Display(Name = "Vergi No")]
         public string TaxNo { get; set; }
 
-        [Display(Name = "E-Posta")]
-        public string Mail { get; set; }
-
         [Display(Name = "Eklenme Tarihi")]
         public DateTime DateCreated { get; set; }
+        
 
         public override string ToString()
         {
-            return string.Format("{0} {1} - {2}", Name, Lastname, Phone);
+            return string.Format("MÜŞTERİ BİLGİLERİ\nAdı\t:{0}\nAdres\t:{1}\nV.No\t:{2}({3}", Name, Address, TaxNo, TaxPlace);
         }
     }
+
+    //public class WhatHeBuys
+    //{
+    //    [Display(Name = "Şişe")]
+    //    public bool Bottle { get; set; }
+    //    [Display(Name = "Özer Hisar")]
+    //    public bool OH { get; set; }
+    //    [Display(Name = "Çayır Hisar")]
+    //    public bool CH { get; set; }
+    //    [Display(Name = "Tombik")]
+    //    public bool Tombik { get; set; }
+    //    [Display(Name = "İadesiz")]
+    //    public bool NonDeposit { get; set; }
+    //}
 }

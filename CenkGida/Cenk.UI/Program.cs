@@ -1,5 +1,4 @@
 ﻿using Cenk.UI.Views;
-using Cenk.UI.Views.Customer;
 using System;
 using System.Collections.Generic;
 using System.Globalization;

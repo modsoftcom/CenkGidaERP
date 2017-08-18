@@ -74,7 +74,7 @@
             this.ribbonControl1.Pages.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPage[] {
             this.ribbonPage1});
             this.ribbonControl1.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonControlStyle.Office2013;
-            this.ribbonControl1.Size = new System.Drawing.Size(957, 146);
+            this.ribbonControl1.Size = new System.Drawing.Size(957, 139);
             // 
             // btnNew
             // 
@@ -199,10 +199,10 @@
             // 
             this.itemGrid.DataSource = this.bindingSource;
             this.itemGrid.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.itemGrid.Location = new System.Drawing.Point(0, 146);
+            this.itemGrid.Location = new System.Drawing.Point(0, 139);
             this.itemGrid.MainView = this.items;
             this.itemGrid.Name = "itemGrid";
-            this.itemGrid.Size = new System.Drawing.Size(957, 342);
+            this.itemGrid.Size = new System.Drawing.Size(957, 349);
             this.itemGrid.TabIndex = 1;
             this.itemGrid.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.items});
@@ -230,11 +230,10 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
-            this.ClientSize = new System.Drawing.Size(957, 488);
             this.Controls.Add(this.itemGrid);
             this.Controls.Add(this.ribbonControl1);
             this.Name = "BaseForm";
-            this.Text = "Customers";
+            this.Size = new System.Drawing.Size(957, 488);
             ((System.ComponentModel.ISupportInitialize)(this.ribbonControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.itemGrid)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource)).EndInit();
@@ -251,8 +250,6 @@
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup1;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup2;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup3;
-        private DevExpress.XtraGrid.GridControl itemGrid;
-        private DevExpress.XtraGrid.Views.Grid.GridView items;
         private DevExpress.XtraBars.BarButtonItem btnNew;
         private DevExpress.XtraBars.BarButtonItem btnDetails;
         private DevExpress.XtraBars.BarButtonItem btnEdit;
@@ -264,5 +261,7 @@
         private DevExpress.XtraBars.BarButtonItem btnPDF;
         private DevExpress.XtraBars.SkinRibbonGalleryBarItem theme;
         private System.Windows.Forms.BindingSource bindingSource;
+        public DevExpress.XtraGrid.GridControl itemGrid;
+        public DevExpress.XtraGrid.Views.Grid.GridView items;
     }
 }

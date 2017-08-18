@@ -13,6 +13,7 @@ using Cenk.UI.Utils;
 using DevExpress.XtraGrid.Views.Base;
 using DevExpress.XtraBars.Ribbon;
 using System.IO;
+using Cenk.UI.Views.DetailForms;
 
 namespace Cenk.UI.Views
 {
@@ -59,7 +60,27 @@ namespace Cenk.UI.Views
                 if (index != -1)
                 {
                     T entity = (T)items.GetRow(index);
-                    XtraMessageBox.Show(entity.ToString());
+                    switch (typeof(T).Name)
+                    {
+
+                        case "Customer":
+                            //new CustomerDetails<T>(entity).ShowDialog();
+                            XtraMessageBox.Show(entity.ToString());
+                            break;
+                        case "Product":
+                            XtraMessageBox.Show(entity.ToString());
+                            break;
+                        case "Waybill":
+
+                            break;
+                        case "Order":
+
+                            break;
+                        default:
+                            break;
+                    }
+
+                    //
                 }
             }
             catch (Exception ex)
@@ -71,7 +92,7 @@ namespace Cenk.UI.Views
         {
             try
             {
-                items.RefreshData();
+                bindingSource.DataSource = Service<T>.toBindingList;
                 items.BestFitColumns();
             }
             catch (Exception ex)
@@ -190,7 +211,7 @@ namespace Cenk.UI.Views
                 Logger.Add(ex);
             }
         }
-        
+
 
     }
 }
