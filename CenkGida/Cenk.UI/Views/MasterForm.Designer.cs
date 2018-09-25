@@ -28,9 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             DevExpress.XtraSplashScreen.SplashScreenManager splashScreenManager1 = new DevExpress.XtraSplashScreen.SplashScreenManager(this, null, true, true);
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MasterForm));
-            this.theme = new DevExpress.LookAndFeel.DefaultLookAndFeel();
+            this.theme = new DevExpress.LookAndFeel.DefaultLookAndFeel(this.components);
             this.barDockControlTop = new DevExpress.XtraBars.BarDockControl();
             this.barDockControlBottom = new DevExpress.XtraBars.BarDockControl();
             this.barDockControlLeft = new DevExpress.XtraBars.BarDockControl();
@@ -488,8 +489,9 @@
             this.Controls.Add(this.barDockControl5);
             this.IsMdiContainer = true;
             this.Name = "MasterForm";
+            this.ShowIcon = false;
             this.TabFormControl = this.tabFormControl1;
-            this.Text = "MasterForm";
+            this.Text = "Fatura-İrsaliye Yönetim Sistemi";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             ((System.ComponentModel.ISupportInitialize)(this.tabFormDefaultManager1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tabFormControl1)).EndInit();
